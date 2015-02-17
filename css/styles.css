@@ -10,3 +10,11 @@
 .task:hover {
   text-decoration: underline;
 }
+
+ul {
+  list-style-type: none;
+}
+
+#show-completed-tasks {
+  display: none;
+}
