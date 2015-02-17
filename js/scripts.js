@@ -19,6 +19,7 @@ $(document).ready(function() {
     });
 
     $("#checkOff").last().click(function() {
+      $(this).parent().remove();
       $("#show-completed-tasks").show();
       $("#show-completed-tasks").text(newTask.task);
     })
